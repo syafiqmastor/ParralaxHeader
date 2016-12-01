@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335CAA011DCC405F00AC218B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CAA001DCC405F00AC218B /* AppDelegate.swift */; };
+		335CAA031DCC405F00AC218B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CAA021DCC405F00AC218B /* ViewController.swift */; };
+		335CAA061DCC405F00AC218B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335CAA041DCC405F00AC218B /* Main.storyboard */; };
+		335CAA081DCC405F00AC218B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335CAA071DCC405F00AC218B /* Assets.xcassets */; };
+		335CAA0B1DCC405F00AC218B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335CAA091DCC405F00AC218B /* LaunchScreen.storyboard */; };
+		335CAA161DCC405F00AC218B /* ParralaxHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CAA151DCC405F00AC218B /* ParralaxHeaderTests.swift */; };
+		335CAA211DCC405F00AC218B /* ParralaxHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CAA201DCC405F00AC218B /* ParralaxHeaderUITests.swift */; };
+		335CAA2F1DCC69BD00AC218B /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CAA2E1DCC69BD00AC218B /* ImageCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335CAA121DCC405F00AC218B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335CA9F51DCC405F00AC218B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335CA9FC1DCC405F00AC218B;
+			remoteInfo = ParralaxHeader;
+		};
+		335CAA1D1DCC405F00AC218B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335CA9F51DCC405F00AC218B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335CA9FC1DCC405F00AC218B;
+			remoteInfo = ParralaxHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		335CA9FD1DCC405F00AC218B /* ParralaxHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParralaxHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335CAA001DCC405F00AC218B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		335CAA021DCC405F00AC218B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		335CAA051DCC405F00AC218B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		335CAA071DCC405F00AC218B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335CAA0A1DCC405F00AC218B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		335CAA0C1DCC405F00AC218B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335CAA111DCC405F00AC218B /* ParralaxHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParralaxHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		335CAA151DCC405F00AC218B /* ParralaxHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParralaxHeaderTests.swift; sourceTree = "<group>"; };
+		335CAA171DCC405F00AC218B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335CAA1C1DCC405F00AC218B /* ParralaxHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParralaxHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		335CAA201DCC405F00AC218B /* ParralaxHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParralaxHeaderUITests.swift; sourceTree = "<group>"; };
+		335CAA221DCC405F00AC218B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335CAA2E1DCC69BD00AC218B /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335CA9FA1DCC405F00AC218B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335CAA0E1DCC405F00AC218B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335CAA191DCC405F00AC218B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335CA9F41DCC405F00AC218B = {
+			isa = PBXGroup;
+			children = (
+				335CA9FF1DCC405F00AC218B /* ParralaxHeader */,
+				335CAA141DCC405F00AC218B /* ParralaxHeaderTests */,
+				335CAA1F1DCC405F00AC218B /* ParralaxHeaderUITests */,
+				335CA9FE1DCC405F00AC218B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		335CA9FE1DCC405F00AC218B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335CA9FD1DCC405F00AC218B /* ParralaxHeader.app */,
+				335CAA111DCC405F00AC218B /* ParralaxHeaderTests.xctest */,
+				335CAA1C1DCC405F00AC218B /* ParralaxHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335CA9FF1DCC405F00AC218B /* ParralaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				335CAA001DCC405F00AC218B /* AppDelegate.swift */,
+				335CAA021DCC405F00AC218B /* ViewController.swift */,
+				335CAA041DCC405F00AC218B /* Main.storyboard */,
+				335CAA2E1DCC69BD00AC218B /* ImageCell.swift */,
+				335CAA071DCC405F00AC218B /* Assets.xcassets */,
+				335CAA091DCC405F00AC218B /* LaunchScreen.storyboard */,
+				335CAA0C1DCC405F00AC218B /* Info.plist */,
+			);
+			path = ParralaxHeader;
+			sourceTree = "<group>";
+		};
+		335CAA141DCC405F00AC218B /* ParralaxHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				335CAA151DCC405F00AC218B /* ParralaxHeaderTests.swift */,
+				335CAA171DCC405F00AC218B /* Info.plist */,
+			);
+			path = ParralaxHeaderTests;
+			sourceTree = "<group>";
+		};
+		335CAA1F1DCC405F00AC218B /* ParralaxHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				335CAA201DCC405F00AC218B /* ParralaxHeaderUITests.swift */,
+				335CAA221DCC405F00AC218B /* Info.plist */,
+			);
+			path = ParralaxHeaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335CA9FC1DCC405F00AC218B /* ParralaxHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335CAA251DCC405F00AC218B /* Build configuration list for PBXNativeTarget "ParralaxHeader" */;
+			buildPhases = (
+				335CA9F91DCC405F00AC218B /* Sources */,
+				335CA9FA1DCC405F00AC218B /* Frameworks */,
+				335CA9FB1DCC405F00AC218B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParralaxHeader;
+			productName = ParralaxHeader;
+			productReference = 335CA9FD1DCC405F00AC218B /* ParralaxHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		335CAA101DCC405F00AC218B /* ParralaxHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335CAA281DCC405F00AC218B /* Build configuration list for PBXNativeTarget "ParralaxHeaderTests" */;
+			buildPhases = (
+				335CAA0D1DCC405F00AC218B /* Sources */,
+				335CAA0E1DCC405F00AC218B /* Frameworks */,
+				335CAA0F1DCC405F00AC218B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335CAA131DCC405F00AC218B /* PBXTargetDependency */,
+			);
+			name = ParralaxHeaderTests;
+			productName = ParralaxHeaderTests;
+			productReference = 335CAA111DCC405F00AC218B /* ParralaxHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		335CAA1B1DCC405F00AC218B /* ParralaxHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335CAA2B1DCC405F00AC218B /* Build configuration list for PBXNativeTarget "ParralaxHeaderUITests" */;
+			buildPhases = (
+				335CAA181DCC405F00AC218B /* Sources */,
+				335CAA191DCC405F00AC218B /* Frameworks */,
+				335CAA1A1DCC405F00AC218B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335CAA1E1DCC405F00AC218B /* PBXTargetDependency */,
+			);
+			name = ParralaxHeaderUITests;
+			productName = ParralaxHeaderUITests;
+			productReference = 335CAA1C1DCC405F00AC218B /* ParralaxHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335CA9F51DCC405F00AC218B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Syafiq;
+				TargetAttributes = {
+					335CA9FC1DCC405F00AC218B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					335CAA101DCC405F00AC218B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 335CA9FC1DCC405F00AC218B;
+					};
+					335CAA1B1DCC405F00AC218B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 335CA9FC1DCC405F00AC218B;
+					};
+				};
+			};
+			buildConfigurationList = 335CA9F81DCC405F00AC218B /* Build configuration list for PBXProject "ParralaxHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335CA9F41DCC405F00AC218B;
+			productRefGroup = 335CA9FE1DCC405F00AC218B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335CA9FC1DCC405F00AC218B /* ParralaxHeader */,
+				335CAA101DCC405F00AC218B /* ParralaxHeaderTests */,
+				335CAA1B1DCC405F00AC218B /* ParralaxHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335CA9FB1DCC405F00AC218B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335CAA0B1DCC405F00AC218B /* LaunchScreen.storyboard in Resources */,
+				335CAA081DCC405F00AC218B /* Assets.xcassets in Resources */,
+				335CAA061DCC405F00AC218B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335CAA0F1DCC405F00AC218B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335CAA1A1DCC405F00AC218B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335CA9F91DCC405F00AC218B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335CAA031DCC405F00AC218B /* ViewController.swift in Sources */,
+				335CAA011DCC405F00AC218B /* AppDelegate.swift in Sources */,
+				335CAA2F1DCC69BD00AC218B /* ImageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335CAA0D1DCC405F00AC218B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335CAA161DCC405F00AC218B /* ParralaxHeaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335CAA181DCC405F00AC218B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335CAA211DCC405F00AC218B /* ParralaxHeaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		335CAA131DCC405F00AC218B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335CA9FC1DCC405F00AC218B /* ParralaxHeader */;
+			targetProxy = 335CAA121DCC405F00AC218B /* PBXContainerItemProxy */;
+		};
+		335CAA1E1DCC405F00AC218B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335CA9FC1DCC405F00AC218B /* ParralaxHeader */;
+			targetProxy = 335CAA1D1DCC405F00AC218B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		335CAA041DCC405F00AC218B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335CAA051DCC405F00AC218B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		335CAA091DCC405F00AC218B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335CAA0A1DCC405F00AC218B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335CAA231DCC405F00AC218B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		335CAA241DCC405F00AC218B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335CAA261DCC405F00AC218B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ParralaxHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.ParralaxHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		335CAA271DCC405F00AC218B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ParralaxHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.ParralaxHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		335CAA291DCC405F00AC218B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParralaxHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.ParralaxHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParralaxHeader.app/ParralaxHeader";
+			};
+			name = Debug;
+		};
+		335CAA2A1DCC405F00AC218B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParralaxHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.ParralaxHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParralaxHeader.app/ParralaxHeader";
+			};
+			name = Release;
+		};
+		335CAA2C1DCC405F00AC218B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ParralaxHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.ParralaxHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ParralaxHeader;
+			};
+			name = Debug;
+		};
+		335CAA2D1DCC405F00AC218B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ParralaxHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.ParralaxHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ParralaxHeader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335CA9F81DCC405F00AC218B /* Build configuration list for PBXProject "ParralaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335CAA231DCC405F00AC218B /* Debug */,
+				335CAA241DCC405F00AC218B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335CAA251DCC405F00AC218B /* Build configuration list for PBXNativeTarget "ParralaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335CAA261DCC405F00AC218B /* Debug */,
+				335CAA271DCC405F00AC218B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		335CAA281DCC405F00AC218B /* Build configuration list for PBXNativeTarget "ParralaxHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335CAA291DCC405F00AC218B /* Debug */,
+				335CAA2A1DCC405F00AC218B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		335CAA2B1DCC405F00AC218B /* Build configuration list for PBXNativeTarget "ParralaxHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335CAA2C1DCC405F00AC218B /* Debug */,
+				335CAA2D1DCC405F00AC218B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335CA9F51DCC405F00AC218B /* Project object */;
+}
